@@ -77,7 +77,7 @@ export default function HomeScreen({ navigation }: any) {
           <Text style={styles.greeting}>Welcome Back 👋</Text>
           <Text style={styles.subGreeting}>Let’s relax and watch a movie.</Text>
         </View>
-        <View style={styles.avatarCircle} /> 
+        <View style={styles.avatarCircle} ><Text style={styles.greeting}>AS</Text></View> 
       </View>
 
       {/* ---- Search Bar ---- */}
@@ -213,8 +213,15 @@ const styles = StyleSheet.create({
   },
   greeting: { color: '#fff', fontSize: 18, fontWeight: 'bold' },
   subGreeting: { color: '#bbb', fontSize: 14, marginTop: 2 },
-  avatarCircle: { width: 40, height: 40, borderRadius: 20, backgroundColor: '#222' },
-
+  avatarCircle: { 
+    width: 40, 
+    height: 40, 
+    borderRadius: 20, 
+    backgroundColor: '#222', 
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
   searchBar: {
     backgroundColor: '#232323',
     borderRadius: 10,
