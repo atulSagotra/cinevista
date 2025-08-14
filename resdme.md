@@ -5,6 +5,11 @@ It features a 3D slanted **Now Playing** carousel, a **Coming Soon** section, an
 
 ---
 
+## 📸 Screenshots
+*(Add your app screenshots here)*
+
+---
+
 ## ✨ Features
 
 - 🎠 **Stylish carousel** for Now Playing movies with 3D tilt effect
@@ -26,12 +31,6 @@ It features a 3D slanted **Now Playing** carousel, a **Coming Soon** section, an
 
 ---
 
-## Screenshots
-![alt text](image.png)
-![alt text](image-1.png)
-![alt text](image-3.png)
-![alt text](image-2.png)
-
 ## 📦 Installation
 
 1. Clone the repository:
@@ -45,10 +44,8 @@ npm install
 or
 yarn install
 
-
 3. **(iOS only)** Install CocoaPods dependencies:
 cd ios && pod install && cd ..
-
 
 4. **Add your TMDb API token**  
 - Create a `.env` file and store:
@@ -68,15 +65,11 @@ cd ios && pod install && cd ..
 For **Android**:
 npx react-native run-android
 
-
 For **iOS**:
 npx react-native run-ios
 
-
 Or start Metro bundler:
 npx react-native start
-
----
 
 ## 📂 Project Structure
 
@@ -90,9 +83,6 @@ npx react-native start
 ├── types/
 │ └── movie.ts # TS types for API models
 └── README.md
-
-
----
 
 ## 🔑 API Usage
 
@@ -118,3 +108,4 @@ Required endpoints in `services/tmdb.ts`:
 ## 📄 License
 
 This project is licensed under the MIT License.
+
